@@ -156,14 +156,13 @@
   position: absolute;
   top: 120px;
   left: 480px;
-  border: solid black;
 }
 
 #homefield {
   height: 480px;
   width: 480px;
   position: absolute;
-  background-color: red;
+  background-color: #ecf0f1;
 }
 
 #homefield-desc {
@@ -172,7 +171,19 @@
   position: absolute;
   left: 480px;
   top: 240px;
-  background-color: blue;
+  background-color: #e74c2e;
+}
+
+#homefield-arrow {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 15px 26.0px 15px 0;
+  border-color: transparent rgb(231,76,46) transparent transparent;
+  position: absolute;
+  left: 454px;
+  top: 264px;
+  z-index: 10
 }
 
 #corbin-san-diego {
@@ -181,7 +192,7 @@
   position: absolute;
   left: 480px;
   top: 480px;
-  background-color: red;
+  background-color: #ecf0f1;
 }
 
 #corbin-san-diego-desc {
@@ -190,7 +201,7 @@
   position: absolute;
   left: 240px;
   top: 480px;
-  background-color: blue;
+  background-color: #3078c0;
 }
 
 #corbin-san-diego-arrow {
@@ -198,22 +209,10 @@
   height: 0px;
   border-style: solid;
   border-width: 15px 0 15px 26.0px;
-  border-color: transparent transparent transparent blue;
+  border-color: transparent transparent transparent rgb(48,120,192);
   position: absolute;
   top: 504px;
   left: 480px;
-}
-
-#homefield-arrow {
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  border-width: 15px 26.0px 15px 0;
-  border-color: transparent blue transparent transparent;
-  position: absolute;
-  left: 454px;
-  top: 984px;
-  z-index: 10
 }
 
 #babble {
@@ -221,7 +220,7 @@
   width: 480px;
   position: absolute;
   top: 720px;
-  background-color: red;
+  background-color: #ecf0f1;
 }
 
 #babble-desc {
@@ -230,7 +229,19 @@
   position: absolute;
   left: 480px;
   top: 960px;
-  background-color: blue;
+  background-color: #f2c230;
+}
+
+#babble-arrow {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 15px 26.0px 15px 0;
+  border-color: transparent rgb(242,194,48) transparent transparent;
+  position: absolute;
+  left: 454px;
+  top: 984px;
+  z-index: 10
 }
 
 #contact {
