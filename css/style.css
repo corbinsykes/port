@@ -1,0 +1,42 @@
+#intro {
+  height: 1000px;
+  position: relative;
+}
+
+#intro-container {
+  position: absolute;
+  top: 400px;
+}
+
+#bio {
+  height:500px;
+  background-color: orange;
+}
+
+#projects {
+  height: 500px;
+  background-color: yellow;
+}
+
+#contact {
+  height: 500px;
+  background-color: green;
+}
+
+#brain {
+  height: 1000px;
+  width: 100%;
+}
+
+#name {
+  margin-top: 300px;
+  font-size: 100px;
+  color: #FFFFFF;
+  font-family: Arial;
+  text-shadow: 2px 2px #ff0000;
+}
+
+li {
+
+  text-align: center;
+}
