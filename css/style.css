@@ -1,42 +1,289 @@
 #intro {
-  height: 1000px;
+  height: 1250px;
   position: relative;
 }
 
-#intro-container {
-  position: absolute;
-  top: 400px;
+#bio {
+  margin-top: 0;
+  height:720px;
+  background-color: #FFFFFF;
+  position: relative;
 }
 
-#bio {
-  height:500px;
-  background-color: orange;
+#about-me {
+  font-size: 40px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #131426;
+  position: absolute;
+  top: 15px;
+  left: 480px;
+}
+
+#center-row {
+  width: 100%;
+  height: 480px;
+  position: absolute;
+  top: 120px;
+}
+
+#about-me-img {
+  height: 480px;
+  width: 240px;
+  position: absolute;
+  left:0;
+  background-image: url(../img/bowtie.jpg);
+  background-position: 90% 0
+}
+
+#tech {
+  width: 240px;
+  height: 120px;
+  background-color: #e74c2e;
+  position: absolute;
+  top: 120px;
+  left: 240px;
+}
+
+#tech-list {
+  width: 240px;
+  height: 240px;
+  background-color: #3078c0;
+  position: absolute;
+  left: 240px;
+  top: 240px;
+}
+
+#methods {
+  width: 240px;
+  height: 360px;
+  background-color: #131426;
+  position: absolute;
+  left: 480px;
+}
+
+#passions {
+  width: 240px;
+  height: 120px;
+  background-color: #f2c230;
+  position: absolute;
+  left: 720px;
+  top: 240px;
+}
+
+#education {
+  width: 240px;
+  height: 360px;
+  background-color: #3078c0;
+  position: absolute;
+  left: 960px;
+}
+
+#one {
+  width: 120px;
+  height: 120px;
+  background-color: #e74c2e;
+  position: absolute;
+  left: 1080px;
+  top: 360px;
+}
+
+#two {
+  width: 240px;
+  height: 240px;
+  background-color: #131426;
+  position: absolute;
+  left: 1200px;
+  top: 120px;
+}
+
+#three {
+  width: 240px;
+  height: 240px;
+  background-image: url(../img/bugs.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 50px;
+  position: absolute;
+  left: 1440px;
+  border: solid #f2c230 1px;
+}
+
+#four {
+  width: 240px;
+  height: 120px;
+  background-color: #b31b28;
+  position: absolute;
+  left: 1440px;
+  top: 240px;
+}
+
+#five {
+  width: 240px;
+  height: 240px;
+  background-color: #131426;
+  position: absolute;
+  left: 1680px;
+  top: 240px;
+}
+
+#bowtie {
+  height: 480px;
+  width: 240px;
+  position: absolute;
+  bottom: 20%;
 }
 
 #projects {
-  height: 500px;
-  background-color: yellow;
+  height: 1440px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+#projects-title {
+  font-size: 40px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #131426;
+  position: absolute;
+  top: 15px;
+  left: 480px;
+}
+
+#center-column {
+  width: 50%;
+  height: 1200px;
+  position: absolute;
+  top: 120px;
+  left: 480px;
+  border: solid black;
+}
+
+#homefield {
+  height: 480px;
+  width: 480px;
+  position: absolute;
+  background-color: red;
+}
+
+#homefield-desc {
+  height: 240px;
+  width: 240px;
+  position: absolute;
+  left: 480px;
+  top: 240px;
+  background-color: blue;
+}
+
+#corbin-san-diego {
+  height: 480px;
+  width: 480px;
+  position: absolute;
+  left: 480px;
+  top: 480px;
+  background-color: red;
+}
+
+#corbin-san-diego-desc {
+  height: 240px;
+  width: 240px;
+  position: absolute;
+  left: 240px;
+  top: 480px;
+  background-color: blue;
+}
+
+#corbin-san-diego-arrow {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 15px 0 15px 26.0px;
+  border-color: transparent transparent transparent blue;
+  position: absolute;
+  top: 504px;
+  left: 480px;
+}
+
+#homefield-arrow {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 15px 26.0px 15px 0;
+  border-color: transparent blue transparent transparent;
+  position: absolute;
+  left: 454px;
+  top: 984px;
+  z-index: 10
+}
+
+#babble {
+  height: 480px;
+  width: 480px;
+  position: absolute;
+  top: 720px;
+  background-color: red;
+}
+
+#babble-desc {
+  height: 240px;
+  width: 240px;
+  position: absolute;
+  left: 480px;
+  top: 960px;
+  background-color: blue;
 }
 
 #contact {
-  height: 500px;
-  background-color: green;
+  height: 480px;
+  background-color: #131426;
 }
 
 #brain {
-  height: 1000px;
+  height: 1250px;
   width: 100%;
 }
 
 #name {
-  margin-top: 300px;
+  margin-top: 500px;
   font-size: 100px;
   color: #FFFFFF;
   font-family: Arial;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px #131426;
 }
 
 li {
-
   text-align: center;
+}
+
+.menu {
+  font-family: Arial;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: #131426;
+}
+
+.menu ul {
+  margin: 0; padding: 0;
+  float: left;
+}
+
+.menu ul li {
+  display: inline;
+}
+
+.menu ul li a {
+  float: left; text-decoration: none;
+  color: white;
+  padding: 10.5px 11px;
+  background-color: #131426;
+}
+
+.menu ul li a:visited {
+  color: white;
+}
+
+.menu ul li a:hover, .menu ul li .current {
+  color: #fff;
+  background-color:#3078c0;
 }
