@@ -192,7 +192,8 @@
   position: absolute;
   left: 480px;
   top: 480px;
-  background-color: #ecf0f1;
+  background-image: url(../img/csd-mock.png);
+  background-size: contain;
 }
 
 #corbin-san-diego-desc {
@@ -274,9 +275,22 @@ li {
   background-color: #131426;
 }
 
+#links {
+  position: absolute;
+  height: 100%;
+}
+
 .menu ul {
-  margin: 0; padding: 0;
+  font-size: 26px;
+}
+
+.left {
   float: left;
+  padding-top: 10px;
+}
+
+.right {
+  float: right;
 }
 
 .menu ul li {
