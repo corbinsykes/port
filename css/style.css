@@ -106,7 +106,7 @@
   background-position: 0 50px;
   position: absolute;
   left: 1440px;
-  border: solid #f2c230 1px;
+  background-color: #f2c230;
 }
 
 #four {
@@ -163,6 +163,8 @@
   width: 480px;
   position: absolute;
   background-color: #ecf0f1;
+  background-image: url(../img/homefield-ss.png);
+  background-size: contain;
 }
 
 #homefield-desc {
@@ -183,7 +185,6 @@
   position: absolute;
   left: 454px;
   top: 264px;
-  z-index: 10
 }
 
 #corbin-san-diego {
@@ -192,7 +193,7 @@
   position: absolute;
   left: 480px;
   top: 480px;
-  background-image: url(../img/csd-mock.png);
+  background-image: url(../img/carmen-san-diego.png);
   background-size: contain;
 }
 
@@ -222,6 +223,8 @@
   position: absolute;
   top: 720px;
   background-color: #ecf0f1;
+  background-image: url(../img/bbble-mock.png);
+  background-size: contain;
 }
 
 #babble-desc {
@@ -230,7 +233,7 @@
   position: absolute;
   left: 480px;
   top: 960px;
-  background-color: #f2c230;
+  background-color: #b31b28;
 }
 
 #babble-arrow {
@@ -238,11 +241,26 @@
   height: 0px;
   border-style: solid;
   border-width: 15px 26.0px 15px 0;
-  border-color: transparent rgb(242,194,48) transparent transparent;
+  border-color: transparent rgb(179,27,40) transparent transparent;
   position: absolute;
   left: 454px;
   top: 984px;
-  z-index: 10
+}
+
+.desc {
+  font-family: Arial;
+  color: #FFFFFF;
+  padding-left: 18px;
+  padding-top: 18px;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.project-desc {
+  font-style: italic;
 }
 
 #contact {
@@ -273,11 +291,6 @@ li {
   z-index: 10;
   width: 100%;
   background-color: #131426;
-}
-
-#links {
-  position: absolute;
-  height: 100%;
 }
 
 .menu ul {
