@@ -88,6 +88,12 @@
   top: 360px;
 }
 
+#linkedin-icon {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+}
+
 #two {
   width: 240px;
   height: 240px;
@@ -100,10 +106,10 @@
 #three {
   width: 240px;
   height: 240px;
-  background-image: url(../img/bugs.jpg);
+  /*background-image: url(../img/bugs.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 0 50px;
+  background-position: 0 50px;*/
   position: absolute;
   left: 1440px;
   background-color: #f2c230;
@@ -125,6 +131,35 @@
   position: absolute;
   left: 1680px;
   top: 240px;
+}
+
+#six {
+  width: 120px;
+  height: 120px;
+  background-color: #b31b28;
+  position: absolute;
+  left: 720px;
+  top: 120px;
+}
+
+#twitter-icon {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+}
+
+#facebook-icon {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+}
+
+#seven {
+  width: 120px;
+  height: 120px;
+  background-color: #3078c0;
+  position: absolute;
+  left: 1680px;
 }
 
 #bowtie {
@@ -279,49 +314,76 @@
   color: #FFFFFF;
   font-family: Arial;
   text-shadow: 2px 2px #131426;
-}
-
-li {
   text-align: center;
 }
 
-.menu {
+#salutations {
   font-family: Arial;
-  position: fixed;
-  z-index: 10;
-  width: 100%;
-  background-color: #131426;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 42px;
+  color: #FFFFFF
 }
 
-.menu ul {
-  font-size: 26px;
+#who-i-am {
+  font-family: Arial;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 24px;
+  color: #FFFFFF
 }
 
-.left {
-  float: left;
-  padding-top: 10px;
+#aspire-list {
+  font-family: Arial;
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  padding-top: 24px;
+  color: #FFFFFF;
+  line-height: 2.0;
+  list-style-type: none;
 }
 
-.right {
-  float: right;
+#osu {
+  font-family: Arial;
+  font-weight: bolder;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 96px;
+  padding-top: 8px;
 }
 
-.menu ul li {
-  display: inline;
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
+a:link {color:#FFFFFF;}
+a:visited {color:#FFFFFF;}
+a:hover {color:#FFFFFF;}
+a:active {color:#FFFFFF;}
+
+.contact {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Arial;
 }
 
-.menu ul li a {
-  float: left; text-decoration: none;
-  color: white;
-  padding: 10.5px 11px;
-  background-color: #131426;
+#contact-title {
+  padding-top: 36px;
+  font-size: 60px;
 }
 
-.menu ul li a:visited {
-  color: white;
+#contact-link {
+  font-size: 36px;
 }
 
-.menu ul li a:hover, .menu ul li .current {
-  color: #fff;
-  background-color:#3078c0;
-}
+
+
+
+
+
+
+
+
+
