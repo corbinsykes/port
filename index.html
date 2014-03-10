@@ -1,161 +1,346 @@
-<!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Corbin Elliott</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/animations.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/flat_line_styles.css">
+  <link rel="stylesheet" type="text/css" href="css/flat_filled_styles.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+  <title></title>
 </head>
 <body>
-
-  <div id="intro">
-    <ul id="scene">
-      <li class="layer" data-depth="0.00">
-        <img id="brain" src="img/brain.gif">
-      </li>
-      <li class="layer" data-depth="0.80">
-        <h1 id="name">[CORBIN_ELLIOTT]</h1>
-      </li>
-    </ul>
-  </div>
-
-  <div id="bio">
-    <h1 id="about-me">About Me</h1>
-    <div id="center-row">
-      <div id="about-me-img"></div>
-      <div id="tech">
-        <p id="salutations">Salutations!</p>
-      </div>
-      <div id="tech-list">
-        <p id="who-i-am">I'm Corbin, an aspiring:
-          <ul id="aspire-list">
-            <li>Front-End Engineer</li>
-            <li>UX/UI Designer</li>
-            <li>iOS Developer</li>
-            <li>Javascript Ninja</li>
-            <li>Smooth Operator</li>
+  <header>
+    <div class="navbar">
+      <div class="container">
+        <div class="nav-links">
+          <ul class="nav-list">
+            <li class="nav-brand">
+              <h1 class="name">Corbin</h1>
+            </li>
+            <li class="nav-link">
+              <a href="http://facebook.com/corbin.e.sykes" target="_blank">
+                <span><i class="fa fa-facebook"></i></span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="http://twitter.com/Corbin_Elliott" target="_blank">
+                <span><i class="fa fa-twitter"></i></span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="http://instagram.com/Corbin_Elliott" target="_blank">
+                <span><i class="fa fa-instagram"></i></span>
+              </a>
+            </li>
           </ul>
-        </p>
+        </div>
       </div>
-      <div id="methods">
-        <p id="who-i-am">Technologies I use:
-          <ul id="aspire-list">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Javascript</li>
-            <li>jQuery</li>
-            <li>Ruby on Rails</li>
-            <li>PostgreSQL</li>
-            <li>MongoDB</li>
-            <li>RSpec</li>
-            <li>Jasmine</li>
-          </ul>
-        </p>
+    </div>
+  </header>
+  <div class="wrapper intro" data-stellar-background-ratio="0.0">
+    <div class="container">
+      <div class="intro-div">
+        <h1 class="name-text">Corbin Elliott Sykes</h1>
+        <div class="circle"></div>
+        <h4 class="title-text">Web Developer • Software Engineer</h4>
       </div>
-      <div id="passions">
-        <p id="osu"><a href="https://generalassemb.ly/education/web-development-immersive">WDI</a></p>
-      </div>
-      <div id="education">
-        <p id="who-i-am">Stuff I like:
-          <ul id="aspire-list">
-            <li>Concise and Harmonious Code</li>
-            <li>Fantasy Football</li>
-            <li>"The Wire"</li>
-            <li>French Cuisine</li>
-            <li>Making shoes on nikeID</li>
-            <li>Pittsburgh Sports Teams</li>
-            <li>Geography</li>
-            <li>Pool Basketball</li>
-            <li>Bacon</li>
-          </ul>
-        </p>
-      </div>
-      <div id="one">
-        <div id="linkedin-icon"><a href="http://www.linkedin.com/pub/corbin-sykes/39/271/99a" target="_blank"><img src="img/LinkedIn-128.png"></a></div>
-      </div>
-      <div id="two">
-        <p id="who-i-am">Method to the madness:
-          <ul id="aspire-list">
-            <li>Coffee</li>
-            <li>Wireframing</li>
-            <li>HTML & CSS</li>
-            <li>Javascript</li>
-            <li>Rails</li>
-          </ul>
-        </p>
-      </div>
-      <div id="three">
-        <p id="who-i-am">"99 little bugs in the code,</p>
-        <p id="who-i-am">99 little bugs,</p>
-        <p id="who-i-am">You take one down, patch it around,</p>
-        <p id="who-i-am">117 bugs in the code."</p>
-      </div>
-      <div id="four">
-        <p id="osu"><a href="http://osu.edu">THE.</a></p>
-      </div>
-      <div id="five">
-        <p id="who-i-am">programmer</p>
-        <p id="who-i-am">n. [pro·gram·mer]</p>
-        <p id="who-i-am">an organism that turns caffeine and pizza into software</p>
-      </div>
-      <div id="six">
-        <div id="twitter-icon"><a href="http://twitter.com/Corbin_Elliott" target="_blank"><img src="img/Twitter-Bird-128.png"></a></div>
-      </div>
-      <div id="seven">
-        <div id="facebook-icon"><a href="https://www.facebook.com/profile.php?id=12328627" target="_blank"><img src="img/Facebook-128.png"></a></div>
+      <div class="down-arrow bounce">
+        <span class="down-arrow-icon">
+          <a href="#splash">
+            <i class="fa fa-angle-double-down fa-4x"></i></span>
+          </a>
       </div>
     </div>
   </div>
+  <div class="wrapper splash" id="splash">
+    <div class="box">
+      <div class="row section group">
+        <div class="teal sq col span_1_of_8">
+          <span class="svg-icon flat-filled" id="filled-location"></span>
+        </div>
+        <div id="teal" class="teal sq col span_1_of_8">
+          <h1 class="location-text icon-text top-text">New York</h1>
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="lb sq col span_1_of_8">
+          <span class="svg-icon flat-filled" id="filled-coffee"></span>
+        </div>
+        <div class="lb sq col span_1_of_8">
+          <h1 class="coffee-text icon-text top-text">Coffeescript</h1>
+        </div>
+        <div class="red sq col span_1_of_8">
+        </div>
+        <div class="red sq col span_1_of_8">
+        </div>
+      </div>
 
-  <div id="projects">
-    <h1 id="projects-title">Projects</h1>
-    <div id="center-column">
-      <div id="homefield"></div>
-      <div id="homefield-desc">
-        <div class="desc">
-          <p class="project-title">Home Field Advantage</p></br>
-          <p class="project-desc">Your team. Your city. Your bar.</p>
-          <a href="http://everygamesahomegame.herokuapp.com" target="_blank"><img src="img/Login-Arrow-128.png"></a>
+      <div class="row section group">
+        <div class="teal sq col span_1_of_8">
+        </div>
+        <div class="teal sq col span_1_of_8">
+          <h1 class="location-text icon-text bottom-text">New York</h1>
+        </div>
+        <div class="navy sq col span_1_of_8">
+        </div>
+        <div class="navy sq col span_1_of_8">
+        </div>
+        <div class="lb sq col span_1_of_8">
+        </div>
+        <div class="lb sq col span_1_of_8">
+          <h1 class="coffee-text icon-text bottom-text">angularjs</h1>
+        </div>
+        <div class="e white sq col span_1_of_8">
+          <span><h1 class="e-icon">E</h1></span>
+        </div>
+        <div class="sq col span_1_of_8">
         </div>
       </div>
-      <div id="homefield-arrow"></div>
-      <div id="corbin-san-diego"></div>
-      <div id="corbin-san-diego-desc">
-        <div class="desc">
-          <p class="project-title">Corbin San Diego</p></br>
-          <p class="project-desc">Where in the world is Corbin San Diego?</p>
-          <a href="http://corbinsandiego.herokuapp.com" target="_blank"><img src="img/Login-Arrow-128.png"></a>
+
+      <div class="row section group">
+        <div class="orange sq col span_1_of_8">
+          <span class="svg-icon flat-filled" id="filled-browser"></span>
+        </div>
+        <div class="orange sq col span_1_of_8">
+          <h1 class="browser-text top-text">Broswer</h1>
+        </div>
+        <div class="h yellow sq col span_1_of_8">
+          <span><h1 class="h-icon">H</h1></span>
+        </div>
+        <div class="h yellow sq col span_1_of_8">
+        </div>
+        <div class="teal sq col span_1_of_8">
+          <span class="svg-icon flat-filled" id="filled-phone"></span>
+        </div>
+        <div class="teal sq col span_1_of_8">
+          <h1 class="phone-text top-text">Responsive</h1>
+        </div>
+        <div class="mb sq col span_1_of_8">
+          <span class="svg-icon flat-filled" id="filled-suitcase"></span>
+        </div>
+        <div class="mb sq col span_1_of_8">
+          <h1 class="suitcase-text top-text">Full-time</h1>
         </div>
       </div>
-      <div id="corbin-san-diego-arrow"></div>
-      <div id="babble"></div>
-      <div id="babble-desc">
-        <div class="desc">
-          <p class="project-title">Babble</p></br>
-          <p class="project-desc">Mapping the world by language using Twitter</p>
-          <a href="http://babbl.herokuapp.com" target="_blank"><img src="img/Login-Arrow-128.png"></a>
+      <div class="row section group">
+        <div class="orange sq col span_1_of_8">
+        </div>
+        <div class="orange sq col span_1_of_8">
+          <h1 class="browser-text bottom-text">Compatibility</h1>
+        </div>
+        <div class="h yellow sq col span_1_of_8">
+        </div>
+        <div class="h yellow sq col span_1_of_8">
+        </div>
+        <div class="teal sq col span_1_of_8">
+        </div>
+        <div class="teal sq col span_1_of_8">
+          <h1 class="phone-text bottom-text">websites</h1>
+        </div>
+        <div class="mb sq col span_1_of_8">
+        </div>
+        <div class="mb sq col span_1_of_8">
+          <h1 class="suitcase-text bottom-text">freelance</h1>
         </div>
       </div>
-      <div id="babble-arrow"></div>
+      <div class="row section group">
+        <div class="green sq col span_1_of_8">
+        </div>
+        <div class="green sq col span_1_of_8">
+        </div>
+        <div class="mb sq col span_1_of_8">
+          <a href="mailto:corbin.sykes@gmail.com">
+          <span class="svg-icon flat-filled" id="filled-email">
+          </span>
+          </a>
+        </div>
+        <div class="mb sq col span_1_of_8">
+          <h1 class="email-text top-text">Send me</h1>
+        </div>
+        <div class="lb sq col span_1_of_8">
+          <span class="svg-icon flat-filled" id="filled-paper"></span>
+        </div>
+        <div class="lb sq col span_1_of_8">
+          <h1 class="paper-text top-text">Check out</h1>
+        </div>
+        <div class="l-1 orange sq col span_1_of_8">
+          <span><h1 class="l-1-icon">L</h1></span>
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+      </div>
+      <div class="row section group">
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="mb sq col span_1_of_8">
+        </div>
+        <div class="mb sq col span_1_of_8">
+          <h1 class="email-text bottom-text">an email</h1>
+        </div>
+        <div class="lb sq col span_1_of_8">
+        </div>
+        <div class="lb sq col span_1_of_8">
+          <h1 class="paper-text bottom-text">my resumé</h1>
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+      </div>
+      <div class="row section group">
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="l-2 yellow sq col span_1_of_8">
+          <span><h1 class="l-2-icon">L</h1></span>
+        </div>
+        <div class="l-2 yellow sq col span_1_of_8">
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+      </div>
+      <div class="row section group">
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="l-2 yellow sq col span_1_of_8">
+        </div>
+        <div class="l-2 yellow sq col span_1_of_8">
+        </div>
+        <div class="o mb sq col span_1_of_8">
+          <span><h1 class="o-icon">o</h1></span>
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+        <div class="sq col span_1_of_8">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper work">
+    <div class="container">
+      <h1 class="projects">Projects</h1>
+    </div>
+    <div class="box">
+      <div class="row section group">
+        <div class="hf grey hsq col span_4_of_8"></div>
+        <div class="flip">
+          <div class="card hf-card bsq col span_2_of_8">
+            <div class="face front l">
+              <h2>Home Field</h2>
+              <div class="project-icons">
+                <span id="hf-info"><i class="fa fa-info-circle"></i></span>
+                <a href="//everygamesahomegame.herokuapp.com" target="_blank"><span><i class="fa fa-external-link"></i></span></a>
+              </div>
+              <div class="triangle left lb-triangle"></div>
+            </div>
+            <div class="face back l">
+              <h6>Find a bar in your city to watch your team play.</h6>
+              <h6>Ruby on Rails</h6>
+              <h6>Twitter Bootstrap</h6>
+              <h6>Yelp API</h6>
+              <button class="hf-done">Done</button>
+            </div>
+          </div>
+        </div>
+        <div class="bsq col span_2_of_8"></div>
+      </div>
+      <div class="row section group">
+        <div class="bsq col span_2_of_8"></div>
+        <div class="flip">
+          <div class="card bbl-card bsq col span_2_of_8">
+            <div class="face front o">
+              <h2>Babble</h2>
+              <div class="project-icons">
+                <span id="bbl-info"><i class="fa fa-info-circle"></i></span>
+                <a href="//babbl.herokuapp.com" target="_blank"><span><i class="fa fa-external-link"></i></span></a>
+              </div>
+              <div class="triangle right orange-triangle"></div>
+            </div>
+            <div class="face back o">
+              <h6>Mapping geotagged tweets by language</h6>
+              <h6>Ruby on Rails</h6>
+              <h6>AmmapJS</h6>
+              <h6>Twitter API</h6>
+              <div class="triangle right orange-triangle"></div>
+              <button class="bbl-done">Done</button>
+            </div>
+          </div>
+        </div>
+        <div class="bbl grey hsq col span_4_of_8"></div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="row section group">
+        <div class="csd grey hsq col span_4_of_8"></div>
+        <div class="flip">
+          <div class="card csd-card bsq col span_2_of_8">
+            <div class="face front y">
+              <h2>Corbin San Diego</h2>
+              <div class="project-icons">
+                <span id="csd-info"><i class="fa fa-info-circle"></i></span>
+                <a href="//corbinsandiego.herokuapp.com" target="_blank"><span><i class="fa fa-external-link"></i></span></a>
+              </div>
+              <div class="triangle left yellow-triangle"></div>
+            </div>
+            <div class="face back y">
+              <h6>Showing you how little you know of the world</h6>
+              <h6>Ruby on Rails</h6>
+              <h6>jQuery</h6>
+              <h6>Google Maps API</h6>
+              <div class="triangle left yellow-triangle"></div>
+              <button class="csd-done">Done</button>
+            </div>
+          </div>
+        </div>
+        <div class="bsq col span_2_of_8"></div>
+      </div>
+      <!-- <div class="row section group">
+        <div class="bsq col span_2_of_8"></div>
+        <div class="red bsq col span_2_of_8">
+          <h2>Rock The Belles</h2>
+          <div class="project-icons">
+            <span><i class="fa fa-info-circle"></i></span>
+            <span><i class="fa fa-external-link"></i></span>
+          </div>
+        </div>
+        <div class="grey hsq col span_4_of_8"></div>
+      </div> -->
     </div>
   </div>
 
-  <div id="contact">
-    <p id="contact-title" class="contact">Contact Links</p></br></br></br>
-    <div id="contact-row">
-      <a href="mailto:corbin.sykes@gmail.com" target="_blank"><p id="contact-link" class="contact">Email</p></a>
-      <a href="http://github.com/corbinsykes" target="_blank"><p id="contact-link" class="contact">GitHub</p></a>
-      <a href="http://twitter.com/Corbin_Elliott" target="_blank"><p id="contact-link" class="contact">Twitter</p></a>
-      <a href="https://www.facebook.com/profile.php?id=12328627" target="_blank"><p id="contact-link" class="contact">Facebook</p></a>
-      <a href="http://www.linkedin.com/pub/corbin-sykes/39/271/99a" target="_blank"><p id="contact-link" class="contact">LinkedIn</p></a>
-      <a href="https://docs.google.com/document/d/1hCXfBghEmWXmA2OJvgwEjJV2YQGLxjJojSNU1wdeEn8/edit?usp=sharing" target="_blank"><p id="contact-link" class="contact">Resume</p></a>
+  <div class="footer">
+    <div class="container">
+        <div class="follow-btn">
+          <a href="https://twitter.com/corbin_elliott" class="twitter-follow-button" data-show-screen-name="true" data-show-count="false">Follow @Corbin_Elliott</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+        <div class="follow-btn">
+          <iframe src="http://ghbtns.com/github-btn.html?user=corbinsykes&amp;type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="150" height="20"></iframe>
+        </div>
     </div>
   </div>
 
-  <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-  <script type="text/javascript" src="js/parallax-js.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/main.min.js"></script>
 </body>
 </html>
