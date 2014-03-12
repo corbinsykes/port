@@ -9,6 +9,10 @@ body {
   margin: 0;
   background-color: #131426; }
 
+#portrait-warning {
+  display: none;
+  color: #fff; }
+
 .circle {
   height: 300px;
   width: 300px;
@@ -18,6 +22,14 @@ body {
   margin-right: auto;
   background-position: 33% 40%;
   background-size: 300%; }
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .circle {
+      height: 200px;
+      width: 200px; } }
+  @media screen and (max-width: 768px) {
+    .circle {
+      height: 100px;
+      width: 100px; } }
 
 .flip {
   -webkit-perspective: 800;
@@ -43,7 +55,7 @@ body {
   z-index: 2; }
   .flip .card .face.y {
     background-color: #f2c230; }
-  .flip .card .face.o {
+  .flip .card .face.or {
     background-color: #e74c2e; }
   .flip .card .face.l {
     background-color: #3078c0; }
@@ -54,7 +66,13 @@ body {
 
 .flip .card .back {
   -webkit-transform: rotatey(-180deg);
-  -moz-transform: rotatey(-180deg); }
+  -moz-transform: rotatey(-180deg);
+  text-align: center;
+  color: #fff;
+  font-size: 22px; }
+  @media screen and (max-width: 480px) {
+    .flip .card .back {
+      font-size: 11px; } }
 
 .svg-icon {
   position: relative;
@@ -116,7 +134,7 @@ body {
     padding-top: 5%; }
     @media screen and (max-width: 480px) {
       .bsq h2 {
-        font-size: 20px; } }
+        font-size: 15px; } }
   .bsq h5 {
     font-weight: 100;
     color: #fff;
@@ -136,8 +154,8 @@ body {
       color: #fff; }
     @media screen and (max-width: 480px) {
       .bsq .project-icons {
-        margin-left: -30px;
-        font-size: 28px; } }
+        margin-left: -15px;
+        font-size: 14px; } }
 
 .intro-div {
   padding-top: 5%; }
@@ -152,7 +170,7 @@ body {
   font-size: 48px; }
   @media screen and (max-width: 768px) {
     .name-text {
-      font-size: 36px; } }
+      font-size: 32px; } }
 
 .title-text {
   font-size: 27; }
@@ -164,7 +182,8 @@ body {
   text-align: center;
   position: absolute;
   bottom: 10%;
-  left: 50%; }
+  left: 50%;
+  margin-left: -20px; }
 
 .down-arrow-icon {
   color: #95a5a6; }
@@ -186,7 +205,7 @@ body {
     height: 603px; } }
 @media screen and (max-width: 480px) {
   .splash {
-    height: 433px; } }
+    height: 345px; } }
 
 .intro {
   position: relative;
@@ -272,7 +291,12 @@ body {
     margin-left: auto; } }
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .container {
-    width: 450px;
+    width: 575px;
+    margin-right: auto;
+    margin-left: auto; } }
+@media screen and (max-width: 480px) {
+  .container {
+    width: 280px;
     margin-right: auto;
     margin-left: auto; } }
 
@@ -302,8 +326,8 @@ body {
     margin-left: auto; } }
 @media screen and (max-width: 480px) {
   .box {
-    width: 380px;
-    height: 380px;
+    width: 280px;
+    height: 280px;
     margin-right: auto;
     margin-left: auto; } }
 
@@ -345,8 +369,8 @@ body {
     @media screen and (max-width: 480px) {
       .triangle.right {
         border-width: 10px 0 10px 10px;
-        left: 94px;
-        bottom: 62px; } }
+        left: 70px;
+        bottom: 46px; } }
   .triangle.left {
     left: -29px;
     bottom: 190px;
@@ -374,7 +398,7 @@ body {
       .triangle.left {
         border-width: 10px 10px 10px 0;
         left: -10px;
-        bottom: 62px; } }
+        bottom: 46px; } }
 
 @-webkit-keyframes redPulse {
   0% {
@@ -575,7 +599,7 @@ body {
       text-align: center;
       position: relative;
       left: 50%;
-      top: 21px; } }
+      top: 7px; } }
 
 .e-icon, .l-1-icon, .o-icon {
   color: #203880; }
@@ -608,7 +632,7 @@ body {
       position: relative;
       text-align: center;
       font-size: 24px;
-      top: 10px; } }
+      top: 4px; } }
 
 @media screen and (min-width: 1200px) {
   .l-1-icon {
@@ -639,7 +663,7 @@ body {
     position: relative;
     text-align: center;
     font-size: 24px;
-    top: 10px; } }
+    top: 4px; } }
 
 .l-2-icon {
   color: #8b3623; }
@@ -677,7 +701,7 @@ body {
       text-align: center;
       position: relative;
       left: 50%;
-      top: 21px; } }
+      top: 7px; } }
 
 .o-icon {
   color: #3078c0; }
@@ -710,7 +734,7 @@ body {
       position: relative;
       text-align: center;
       font-size: 24px;
-      top: 10px; } }
+      top: 4 px; } }
 
 .yellow {
   background-color: #f2c230;
